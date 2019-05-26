@@ -1,0 +1,110 @@
+vba
+
+KeyWord 
+
+variable : is a memory location where store our data/value 
+
+a1=10  here a1 is a variable  and 10 is value 
+
+create a variable 
+	
+	
+assign value on variable 
+
+
+
+create and asssign
+
+a=10 
+
+= assign 
+== eQUALS TO / Compare 
+
+op
+=
++
+-%
+?	
+
+constant 
+
+ function 
+	System Define Function\
+		sum()/Min()/Max()/len()/Small()/Large() ETC.
+		
+	User Define Function 
+	
+		RajivSumSal()
+		
+data Excel  (ctrl+s) 
+			VBA 
+	  Data base (no any action) 
+		ms-sql-server 
+				
+		
+Data
+========
+
+emply    sal
+a			10   +1
+b			10   +1
+c			20
+
+	
+comment 
+	Helping for Each other 
+
+
+Comment in VBA
+'  Hello This is my first Program'
+
+print any things 
+
+MsgBox("Write Nany things")	
+
+
+op
+Airthmathic
+
+Logical/conditional 
+
+> Greater than
+ 
+<  Less Than
+
+== Equals to
+
+>= GT eq	
+<= Ls Eq
+! not
+!= not Eq
+&& And 
+|| OR
+
+this oprators use with the help of if keyword 
+
+
+if 10 > 20 Then 
+MsgBox("Hello")
+
+
+
+
+
+
+
+
+
+ 
+
+		
+	
+
+
+
+ 
+
+
+
+
+ 
