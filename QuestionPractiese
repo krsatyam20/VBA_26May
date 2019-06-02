@@ -1,0 +1,132 @@
+Function hello()
+'Message Box with title, yes no and cancel Butttons'
+  
+Dim a As Integer
+  
+ a = MsgBox("Do you like blue color?", 3, "Choose options")
+ 
+  
+MsgBox ("The Value of a is " & a)
+
+End Function
+
+
+
+
+
+Sub sumval()
+    Dim a As Integer
+    Dim b As Integer
+    Dim c As Integer
+    
+    
+    a = InputBox("Enter value of a ", "Enter a Number")
+    b = InputBox("Enter value of b", "Enter a Number")
+    c = a * b
+    MsgBox ("add value of A and B" & " " & c)
+	
+	
+	
+	
+	
+Sub area1()
+
+Dim a As Integer
+Dim b As Integer
+Dim c As Integer
+
+a = InputBox("enter the lenght of square")
+b = InputBox("enter the bredth of square")
+
+c = a * b
+
+MsgBox ("Area of square is" & " " & c)
+
+
+
+End Sub
+
+
+Sub solutions()
+
+Dim a As Integer
+Dim b As Integer
+Dim c As Integer
+Dim d As Integer
+
+
+a = InputBox("enter the number of days")
+
+b = a / 365
+c = a / 7
+d = a
+
+MsgBox ("Number of year" & b)
+
+MsgBox ("Number of weeks" & c)
+
+MsgBox ("Number of days" & d)
+
+End Sub
+
+
+Sub simplei()
+
+Dim a As Integer
+Dim b As Integer
+Dim c As Integer
+Dim d As Integer
+
+
+a = InputBox("ENTER THE PRINCIPLE")
+
+b = InputBox("ENTER THE RATE")
+
+c = InputBox("enter the time")
+
+d = a * b * c / 100
+
+MsgBox ("Simple Interest is" & " " & d)
+
+End Sub
+
+
+Sub logical()
+
+    Dim a As Integer
+    Dim b As Integer
+    
+    a = 30
+    b = 20
+    
+    If a > b Then
+    MsgBox ("a is greater")
+    Else
+    MsgBox ("b is greater")
+    End If
+
+End Sub
+
+
+Sub swap()
+
+    Dim a As Integer
+    Dim b As Integer
+    Dim c As Integer
+    
+    a = 10
+    b = 5
+    
+    c = a
+    a = b
+    b = c
+    
+    MsgBox ("the value of a is" & " " & a)
+    MsgBox ("the value of b is" & " " & b)
+
+End Sub
+
+
+	
+     
+End Sub
