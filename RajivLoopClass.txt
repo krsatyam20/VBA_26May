@@ -1,0 +1,131 @@
+LOOP: REPETAION 
+
+for  
+foreach 
+while 
+do while 
+
+
+
+hello
+
+
+starting point 
+
+
+logic 
+
+end point 
+
+
+1.startingpoit=endpoint
+2. endpoind condition complete 
+
+					1				
+for variable = startingPoint to Endpoint 
+
+	method
+	
+	next 
+	
+	
+	cells(rowIndex,columnIndex).value=data
+	
+	cells(1,1).value=hello
+	cells(2,1).value=hello
+
+	
+Q. 51 to 99 print
+Q2. find Even Number from 1 to 100
+q3. 1+2+3+4+5+ ......10=55	
+
+
+x= 15
+y= 1
+
+x first value 
+y second value
+x<y
+
+
+Function forLoop()
+
+ Dim x As Integer
+ x = InputBox("please enter the any number")
+   For i = 1 To 10
+     ' MsgBox "The value is i is : " & i'
+     'MsgBox (i & "*" & x & "=" & i * x)'
+     
+     Cells(i, 2).Value = i
+
+     
+   Next
+
+
+
+End Function
+
+
+
+
+Function even1()
+
+Dim x As Integer
+
+x = 2
+
+For i = 1 To 100 Step 2
+
+Cells(i, 1).Value = i * x
+
+
+
+Next
+
+
+
+
+End Function
+
+
+Function foorloop1()
+
+Dim a As Integer
+
+a = 1
+
+For i = 1 To 99 Step 3
+
+Cells(a, 1).Value = i
+
+ a = a + 1
+Next
+
+
+
+
+End Function
+
+
+
+Function user1()
+
+Dim i As Integer
+    
+    i = 0
+    
+    For x = 1 To 10
+    
+         i = x + i
+         
+    Next
+    
+    Cells(1, 1) = i
+End Function
+
+
+
+
+ 
+
+
