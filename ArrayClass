@@ -1,0 +1,34 @@
+'Method 1 : Using Dim
+Dim arr1()	'Without Size
+
+'Method 2 : Mentioning the Size
+Dim arr2(5)  'Declared with size of 5
+
+'Method 3 : using 'Array' Parameter
+Dim arr3
+arr3 = Array("apple","Orange","Grapes")
+
+
+Sub arrayClass()
+   Dim a() As Variant
+   ReDim a(5)
+   
+   For i = 1 To 5
+   a(i) = i
+   Next
+   
+   For i = 0 To UBound(a)
+      MsgBox a(i)
+   Next
+
+
+End Sub
+
+
+
+Dim arr3
+arr3 = Array("apple","Orange","Grapes")
+   For i = 0 To UBound(arr3)
+   
+      MsgBox arr3(i)
+   Next
