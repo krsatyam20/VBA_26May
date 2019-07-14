@@ -1,0 +1,182 @@
+Sub studentmarks()
+
+Dim total As Integer
+Dim grandtotal As Integer
+
+
+Dim a As Integer
+Dim b As Integer
+Dim c As Integer
+
+
+a = InputBox("enter the number of science")
+b = InputBox("enter the number of Maths")
+c = InputBox("enter the number of hindi")
+
+
+grandtotal = 300 * 0.4
+total = a + b + c * 0.4
+
+
+If total >= grandtotal Then
+
+MsgBox ("Pass")
+
+Else
+
+MsgBox ("fail")
+
+End If
+
+
+End Sub
+
+
+Sub license()
+
+Dim a As Integer
+
+a = 18
+
+b = InputBox("enter your age")
+
+If b >= a Then
+
+MsgBox ("Eligible for License")
+
+
+Else
+
+MsgBox ("not Eligible for License")
+
+End If
+
+
+End Sub
+
+
+
+
+
+Function GrossSalary(basicsalary As Integer)
+
+Dim HRA As Integer
+Dim DA As Integer
+Dim Cca As Integer
+
+HRA = basicsalary * 0.4
+DA = basicsalary * 0.1
+Cca = basicsalary * 0.05
+
+GrossSalary = basicsalary + HRA + DA + Cca
+
+
+
+
+End Function
+
+
+
+Function grossSalaryAccordingCondition(basicsalary As Integer)
+
+
+Dim HRA As Integer
+Dim DA As Integer
+Dim total As Integer
+
+
+If basicsalary >= 5000 And basicsalary <= 10000 Then
+
+    HRA = basicsalary * 0.1
+    DA = basicsalary * 0.05
+    total = basicsalary + HRA + DA
+Else
+    If basicsalary >= 10001 And basicsalary <= 15000 Then
+    
+        HRA = basicsalary * 0.15
+        DA = basicsalary * 0.08
+        total = basicsalary + HRA + DA
+    Else
+       total = "Not Valid"
+    End If
+End If
+
+grossSalaryAccordingCondition = total
+
+
+End Function
+
+Function Grade(Marks As Integer)
+
+Dim status As String
+
+If Marks >= 60 Then
+
+status = "first"
+
+Else
+
+ 
+If Marks >= 50 Then
+
+status = "Second"
+
+Else
+
+
+If Marks >= 40 Then
+
+status = "third"
+
+Else
+
+status = "Fail"
+
+End If
+End If
+End If
+
+Grade = status
+
+
+End Function
+
+
+Function ELECTRICITYBILL(UNITS As Integer)
+
+Dim total As Integer
+
+If UNITS > 300 Then
+
+total = 60
+
+
+Else
+
+    If UNITS >= 101 And UNITS <= 300 Then
+    
+    total = 50
+    
+    Else
+    
+        If UNITS <= 100 Then
+        
+        
+        total = 40
+    
+        Else
+        
+        total = 0
+    
+        End If
+    End If
+End If
+
+ELECTRICITYBILL = (UNITS * total + 50)
+
+
+End Function
+
+
+
+
