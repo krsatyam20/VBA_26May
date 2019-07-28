@@ -1,0 +1,43 @@
+Sub UsingDefault()
+    On Error GoTo ehh
+    
+    Dim x As Long, y As Long
+    
+    x = 6
+    y = 6 / 0
+    MsgBox (y)
+    
+Done:
+    Exit Sub
+ehh:
+    MsgBox "The following error occurred: " & Err.Description
+End Sub
+
+
+
+Function tablePrint()
+
+Dim i As Integer
+Dim x As Integer
+Dim y As Integer
+
+y = InputBox("Please Enter your Number")
+ For i = 1 To 10
+ 
+  x = y * i
+  
+ Cells(i, 1).Value = y
+Cells(i, 2).Value = "* "
+Cells(i, 3).Value = i
+Cells(i, 4).Value = "="
+
+
+ Cells(i, 5).Value = x
+ 
+ Next i
+ 
+
+
+
+
+End Function
